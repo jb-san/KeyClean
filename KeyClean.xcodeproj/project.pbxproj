@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2914F27D1C89AC4300D49FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914F27C1C89AC4300D49FBE /* AppDelegate.swift */; };
+		2914F27F1C89AC4300D49FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2914F27E1C89AC4300D49FBE /* Assets.xcassets */; };
+		2914F2821C89AC4300D49FBE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2914F2801C89AC4300D49FBE /* MainMenu.xib */; };
+		2914F28D1C89AC4400D49FBE /* KeyCleanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914F28C1C89AC4400D49FBE /* KeyCleanTests.swift */; };
+		2914F2981C89AC4400D49FBE /* KeyCleanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914F2971C89AC4400D49FBE /* KeyCleanUITests.swift */; };
+		2914F2A61C89EE0300D49FBE /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2914F2A51C89EE0300D49FBE /* Overlay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2914F2891C89AC4400D49FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2914F2711C89AC4300D49FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2914F2781C89AC4300D49FBE;
+			remoteInfo = KeyClean;
+		};
+		2914F2941C89AC4400D49FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2914F2711C89AC4300D49FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2914F2781C89AC4300D49FBE;
+			remoteInfo = KeyClean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2914F2791C89AC4300D49FBE /* KeyClean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyClean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2914F27C1C89AC4300D49FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2914F27E1C89AC4300D49FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2914F2811C89AC4300D49FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2914F2831C89AC4300D49FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2914F2881C89AC4400D49FBE /* KeyCleanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyCleanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2914F28C1C89AC4400D49FBE /* KeyCleanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCleanTests.swift; sourceTree = "<group>"; };
+		2914F28E1C89AC4400D49FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2914F2931C89AC4400D49FBE /* KeyCleanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyCleanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2914F2971C89AC4400D49FBE /* KeyCleanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCleanUITests.swift; sourceTree = "<group>"; };
+		2914F2991C89AC4400D49FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2914F2A51C89EE0300D49FBE /* Overlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2914F2761C89AC4300D49FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2914F2851C89AC4400D49FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2914F2901C89AC4400D49FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2914F2701C89AC4300D49FBE = {
+			isa = PBXGroup;
+			children = (
+				2914F27B1C89AC4300D49FBE /* KeyClean */,
+				2914F28B1C89AC4400D49FBE /* KeyCleanTests */,
+				2914F2961C89AC4400D49FBE /* KeyCleanUITests */,
+				2914F27A1C89AC4300D49FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2914F27A1C89AC4300D49FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2914F2791C89AC4300D49FBE /* KeyClean.app */,
+				2914F2881C89AC4400D49FBE /* KeyCleanTests.xctest */,
+				2914F2931C89AC4400D49FBE /* KeyCleanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2914F27B1C89AC4300D49FBE /* KeyClean */ = {
+			isa = PBXGroup;
+			children = (
+				2914F27C1C89AC4300D49FBE /* AppDelegate.swift */,
+				2914F27E1C89AC4300D49FBE /* Assets.xcassets */,
+				2914F2801C89AC4300D49FBE /* MainMenu.xib */,
+				2914F2831C89AC4300D49FBE /* Info.plist */,
+				2914F2A51C89EE0300D49FBE /* Overlay.swift */,
+			);
+			path = KeyClean;
+			sourceTree = "<group>";
+		};
+		2914F28B1C89AC4400D49FBE /* KeyCleanTests */ = {
+			isa = PBXGroup;
+			children = (
+				2914F28C1C89AC4400D49FBE /* KeyCleanTests.swift */,
+				2914F28E1C89AC4400D49FBE /* Info.plist */,
+			);
+			path = KeyCleanTests;
+			sourceTree = "<group>";
+		};
+		2914F2961C89AC4400D49FBE /* KeyCleanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2914F2971C89AC4400D49FBE /* KeyCleanUITests.swift */,
+				2914F2991C89AC4400D49FBE /* Info.plist */,
+			);
+			path = KeyCleanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2914F2781C89AC4300D49FBE /* KeyClean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2914F29C1C89AC4400D49FBE /* Build configuration list for PBXNativeTarget "KeyClean" */;
+			buildPhases = (
+				2914F2751C89AC4300D49FBE /* Sources */,
+				2914F2761C89AC4300D49FBE /* Frameworks */,
+				2914F2771C89AC4300D49FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyClean;
+			productName = KeyClean;
+			productReference = 2914F2791C89AC4300D49FBE /* KeyClean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2914F2871C89AC4400D49FBE /* KeyCleanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2914F29F1C89AC4400D49FBE /* Build configuration list for PBXNativeTarget "KeyCleanTests" */;
+			buildPhases = (
+				2914F2841C89AC4400D49FBE /* Sources */,
+				2914F2851C89AC4400D49FBE /* Frameworks */,
+				2914F2861C89AC4400D49FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2914F28A1C89AC4400D49FBE /* PBXTargetDependency */,
+			);
+			name = KeyCleanTests;
+			productName = KeyCleanTests;
+			productReference = 2914F2881C89AC4400D49FBE /* KeyCleanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2914F2921C89AC4400D49FBE /* KeyCleanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2914F2A21C89AC4400D49FBE /* Build configuration list for PBXNativeTarget "KeyCleanUITests" */;
+			buildPhases = (
+				2914F28F1C89AC4400D49FBE /* Sources */,
+				2914F2901C89AC4400D49FBE /* Frameworks */,
+				2914F2911C89AC4400D49FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2914F2951C89AC4400D49FBE /* PBXTargetDependency */,
+			);
+			name = KeyCleanUITests;
+			productName = KeyCleanUITests;
+			productReference = 2914F2931C89AC4400D49FBE /* KeyCleanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2914F2711C89AC4300D49FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = x3m;
+				TargetAttributes = {
+					2914F2781C89AC4300D49FBE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2914F2871C89AC4400D49FBE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2914F2781C89AC4300D49FBE;
+					};
+					2914F2921C89AC4400D49FBE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2914F2781C89AC4300D49FBE;
+					};
+				};
+			};
+			buildConfigurationList = 2914F2741C89AC4300D49FBE /* Build configuration list for PBXProject "KeyClean" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2914F2701C89AC4300D49FBE;
+			productRefGroup = 2914F27A1C89AC4300D49FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2914F2781C89AC4300D49FBE /* KeyClean */,
+				2914F2871C89AC4400D49FBE /* KeyCleanTests */,
+				2914F2921C89AC4400D49FBE /* KeyCleanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2914F2771C89AC4300D49FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2914F27F1C89AC4300D49FBE /* Assets.xcassets in Resources */,
+				2914F2821C89AC4300D49FBE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2914F2861C89AC4400D49FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2914F2911C89AC4400D49FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2914F2751C89AC4300D49FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2914F2A61C89EE0300D49FBE /* Overlay.swift in Sources */,
+				2914F27D1C89AC4300D49FBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2914F2841C89AC4400D49FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2914F28D1C89AC4400D49FBE /* KeyCleanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2914F28F1C89AC4400D49FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2914F2981C89AC4400D49FBE /* KeyCleanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2914F28A1C89AC4400D49FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2914F2781C89AC4300D49FBE /* KeyClean */;
+			targetProxy = 2914F2891C89AC4400D49FBE /* PBXContainerItemProxy */;
+		};
+		2914F2951C89AC4400D49FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2914F2781C89AC4300D49FBE /* KeyClean */;
+			targetProxy = 2914F2941C89AC4400D49FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2914F2801C89AC4300D49FBE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2914F2811C89AC4300D49FBE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2914F29A1C89AC4400D49FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2914F29B1C89AC4400D49FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2914F29D1C89AC4400D49FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyClean/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.x3m.KeyClean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2914F29E1C89AC4400D49FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyClean/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.x3m.KeyClean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2914F2A01C89AC4400D49FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyCleanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.x3m.KeyCleanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyClean.app/Contents/MacOS/KeyClean";
+			};
+			name = Debug;
+		};
+		2914F2A11C89AC4400D49FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyCleanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.x3m.KeyCleanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyClean.app/Contents/MacOS/KeyClean";
+			};
+			name = Release;
+		};
+		2914F2A31C89AC4400D49FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyCleanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.x3m.KeyCleanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyClean;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2914F2A41C89AC4400D49FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KeyCleanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.x3m.KeyCleanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyClean;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2914F2741C89AC4300D49FBE /* Build configuration list for PBXProject "KeyClean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2914F29A1C89AC4400D49FBE /* Debug */,
+				2914F29B1C89AC4400D49FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2914F29C1C89AC4400D49FBE /* Build configuration list for PBXNativeTarget "KeyClean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2914F29D1C89AC4400D49FBE /* Debug */,
+				2914F29E1C89AC4400D49FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2914F29F1C89AC4400D49FBE /* Build configuration list for PBXNativeTarget "KeyCleanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2914F2A01C89AC4400D49FBE /* Debug */,
+				2914F2A11C89AC4400D49FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2914F2A21C89AC4400D49FBE /* Build configuration list for PBXNativeTarget "KeyCleanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2914F2A31C89AC4400D49FBE /* Debug */,
+				2914F2A41C89AC4400D49FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2914F2711C89AC4300D49FBE /* Project object */;
+}
